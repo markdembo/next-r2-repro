@@ -1,0 +1,9 @@
+# Top-level configuration
+name = "my-worker"
+
+workers_dev = false
+route = { pattern = "example.org/*", zone_name = "example.org" }
+
+r2_buckets  = [
+  { binding = "MY_R2", bucket_name = "MY_R2"}
+]
